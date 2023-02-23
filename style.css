@@ -14,7 +14,7 @@
 .header {
   width: 100%;
   min-height: 40px;
-  background-color: #292929;
+  background-color: #383838;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -120,7 +120,7 @@
 .footer {
   width: 100%;
   min-height: 40px;
-  background-color: #292929;
+  background-color: #383838;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -153,6 +153,7 @@
   .header {
     flex-direction: column;
     gap: 20px;
+    padding: 20px;
   }
   .title-section .title{
     font-size: 20px;
