@@ -141,6 +141,27 @@
 .link-footer:hover {
   border-bottom-color: black;
 }
+@media (max-width: 888px) {
+  .categories {
+    grid-column: 1/5;
+  }
+  .extra-categories {
+    grid-column: 1/5;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .extra-categories p:nth-child(1){
+    padding-top: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  .extra-card {
+    align-items: center;
+    max-width: 300px;
+  }
+}
 @media (max-width: 620px) {
   .categories {
     grid-column: 1/5;
